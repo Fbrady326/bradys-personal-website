@@ -1,7 +1,34 @@
-body {
-    background-color: rgb(116, 69, 172);
+html, body {
+    background-image: linear-gradient(90deg, rgb(65, 115, 159), rgb(69, 40, 118));
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    padding-bottom: 100px;
 }
 
 body h1 {
     color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
+
+body h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.glass {
+    color: #fbfff7;
+    background-image: linear-gradient(135deg, #00000041, #000000b1);
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    padding: 100px;
+    margin: auto;
+    }
